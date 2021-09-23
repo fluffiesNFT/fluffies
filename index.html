@@ -36,14 +36,14 @@
 				<!-- size display !-->
 				<script>
 					if (window.innerHeight > window.innerWidth) {
-						document.getElementById('display').src = 'fluffies_smaller.gif'
+						document.getElementById('display').src = 'img/fluffies_small.gif'
 						document.getElementById('display').style.margin = 'auto'
-						document.getElementById('title_p').src = 'tiny.png'
+						document.getElementById('title_p').src = 'img/banner_small.png'
 						document.getElementById('title_p').style.margin = 'auto'
 					} else {
-						document.getElementById('display').src = 'fluffies.gif'
+						document.getElementById('display').src = 'img/fluffies.gif'
 						document.getElementById('display').style.margin = 'auto'
-						document.getElementById('title_p').src = 'the goddddt.png'
+						document.getElementById('title_p').src = 'img/banner.png'
 						document.getElementById('title_p').style.margin = 'auto'
 					}
 				</script>	
@@ -56,19 +56,19 @@
 					</div>
 					<br>
 					
-					<h2>4,444 unique friends on Ethereum </h2> <br>
+					<h2> 4,444 unique friends on Ethereum </h2> <br>
 					<p> Each Fluffie is a cute, animated friend procedurally generated from their transaction hashes when minted </p>
-					<p> 5% of every mint goes to saveabunny, a California home for abandoned rabbits </p>
+					<p> 5% of every mint goes to SaveABunny, a California home for abandoned rabbits </p>
 					
 					<div class="text-center" style="margin-top: 12%; margin-bottom: 2%">
-					<img src="showcase_1.png" style="border:3px solid white"></img>
-					<img src="showcase_2.png" style="border:3px solid white"></img>
-					<img src="showcase_3.png" style="border:3px solid white"></img>
+					<img src="img/showcase_1.png" style="border:3px solid white"></img>
+					<img src="img/showcase_2.png" style="border:3px solid white"></img>
+					<img src="img/showcase_3.png" style="border:3px solid white"></img>
 					</div>
 					<div class="text-center" style="margin-top: 2%; margin-bottom: 12%">
-					<img src="showcase_4.png" style="border:3px solid white"></img>
-					<img src="showcase_5.png" style="border:3px solid white"></img>
-					<img src="showcase_6.png" style="border:3px solid white"></img>
+					<img src="img/showcase_4.png" style="border:3px solid white"></img>
+					<img src="img/showcase_5.png" style="border:3px solid white"></img>
+					<img src="img/showcase_6.png" style="border:3px solid white"></img>
 					</div>
 					
 					<h3> Coming October 1st, 9:00pm est! </h3>
@@ -102,9 +102,10 @@
 					<div id="collapseTwo" class="collapse hide" data-parent="#accordion">
 						<div class="card-body">
 							Saveabunny is a California nonprofit established in 1999 with a mission of transforming the lives of rescued rabbits and their
-							prospective owners. To date, Saveabunny has been involved in the adoption of nearly 5,000 rabbits. We are not official associates
-							of Saveabunny, but have long been impressed by them - we're confident each and every Fluffie minted will make a difference in the lives
-							of their real-world cousins. Our hope is to be able to fund them for a full year!
+							prospective owners. To date, <a class="a-mint" href="https://www.facebook.com/SaveABunny/" target="_blank"> SaveABunny </a> has
+							been involved in the adoption of nearly 5,000 rabbits. We are not official associates of SaveABunny, but have long been impressed
+							by them - we're confident each and every Fluffie minted will make a difference in the lives of their real-world cousins. Our hope 
+							is to be able to fund them for a full year!
 						</div>
 					</div>
 				</div>
@@ -182,7 +183,7 @@
 			</div>
 			
 			<div class="footer" style="margin-top: 6%; margin-bottom: 4%; margin-left:auto; margin-right: auto; text-align:center">
-				<img src="icon_small.png"></img>
+				<img src="img/icon_small.png"></img>
 				<i class="bi bi-discord" style="color:rgb(86, 98, 246); margin-left: 1%"></i>
 				<a class="a-mint" href="https://discord.com/invite/zBqJawy6PX" target="_blank">Discord</a>
 				<i class="bi bi-twitter" style="color: rgb(29, 160, 241); margin-left: 1%"></i>
@@ -200,16 +201,17 @@
 		<script>
 			adjust()
 			countdown()
+			
 			let y = setInterval(countdown, 1000)
 			window.addEventListener("resize", adjust)	
 			function adjust() {
-	let px =  window.getComputedStyle(document.getElementById("container")).marginRight
-	document.getElementById("bottom").style.right = px
-}
+				let px =  window.getComputedStyle(document.getElementById("container")).marginRight
+				document.getElementById("bottom").style.right = px
+			}
 
-if (window.innerHeight > window.innerWidth) {
-						document.getElementById('play').style.marginRight = '15%'
-					}
+			if (window.innerHeight > window.innerWidth) {
+				document.getElementById('play').style.marginRight = '15%'
+			}
 		</script>
 	</body>
 </html>
