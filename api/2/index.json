@@ -1,6 +1,6 @@
 {
-  "name": "Fluffie",
+  "name": "Fluffie #2",
   "description": "Fluffie #2 of 4,444! This one looks rare.",
   "image": "https://fluffies.io/api/2/2.gif",
-  "attributes": [{"trait_type":"Shirt", "value":"Duck"}]
+  "attributes": [{"trait_type":"Hat", "value":"Green Santa"}]
 }
