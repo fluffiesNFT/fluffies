@@ -1,1 +1,6 @@
-
+{
+  "name": "Fluffie",
+  "description": "Fluffie #1 of 4,444! This one looks rare.",
+  "image": "https://fluffies.io/api/1/1.gif",
+  "attributes": [{"trait_type":"Shirt", "value":"Duck"}]
+}
