@@ -35,7 +35,9 @@ function dance(btn) {
 	}
 }
 
-let date = new Date.UTC("Oct 1, 2021 17:00:00").getTime()
+let date = new Date("Oct 1, 2021 17:00:00")
+minutes = new Date().getTimezoneOffset()
+date.setMinutes(date.getMinutes() - minutes)
 
 function countdown() {
 	let distance = date - new Date().getTime()
