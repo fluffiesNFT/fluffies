@@ -35,7 +35,7 @@ function dance(btn) {
 	}
 }
 
-let date = new Date("Oct 1, 2021 21:00:00").getTime()
+let date = new Date("Oct 1, 2021 13:00:00").getTime()
 
 function countdown() {
 	let distance = date - new Date().getTime()
