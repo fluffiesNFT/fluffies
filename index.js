@@ -8,6 +8,7 @@ const requestListener = function (req, res) {
 		let read = fs.createReadStream("index.html")
 		read.pipe(res)
 	} else {
+		console.log(req)
 		let read = fs.createReadStream(__dirname + req.url)
 		read.pipe(res)
 	}
