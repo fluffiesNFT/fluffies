@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies:" {},
+  "dependencies:" : {},
   "devDependencies": {
     "@metamask/eslint-config": "^2.0.0",
     "@metamask/onboarding": "^1.0.0",
