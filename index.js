@@ -1,5 +1,7 @@
 //get required libraries
 const http = require('http')
+const fs = require('fs')
+const url = require('url')
 
 const requestListener = function (req, res) {
 	if(req.url.length < 2) {
